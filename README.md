@@ -6,7 +6,12 @@ A simple Rock Paper Scissors game implemented using HTML, CSS, and JavaScript. T
 - User vs. Computer gameplay  
 - Randomized computer choices  
 - Score tracking (wins, draws)  
-- Light/Dark mode switching  
+- Light/Dark mode switching
+  
+## The winner is determined based on the classic rules:
+- Rock beats Scissors
+- Scissors beats Paper
+- Paper beats Rock
 
 ## Technologies Used  
 - HTML  
