@@ -1,0 +1,99 @@
+.dark {
+    background-color: black;
+    color: aliceblue;
+    img:hover{
+        border: 2px solid white;
+        border-radius: 100%;
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
+
+.light {
+    background-color: aliceblue;
+    color: black;
+    img:hover{
+        border: 3px solid rgb(0, 0, 0);
+        border-radius: 100%;
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+}
+
+.image {
+    height: 150px;
+    width: 150px;
+}
+
+.summery {
+    height: 200px;
+    width: 150px;
+    line-height: 30px;
+}
+
+#cs {
+    position: fixed;
+    left: 80%;
+    top:23%;
+}
+
+#us {
+    position: fixed;
+    left: 10%;
+    top:23%;
+}
+
+#rock {
+    position: fixed;
+    left: 320px;
+    top:23%;
+}
+
+#paper {
+    position: fixed;
+    left: 560px;
+    top:23%;
+}
+
+#scissors {
+    position: fixed;
+    left: 780px;
+    top:23%;
+}
+
+
+#result {
+    position: fixed;
+    left: 43%;
+    bottom: 15%;
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(27, 151, 2);
+}
+
+#choice {
+    position: fixed;
+    left: 30%;
+    bottom: 25%;
+    font-size: large;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(18, 139, 139);
+}
+
+#heading{
+    padding-left: 560px;
+    font-size: xx-large;
+    color: rgb(119, 113, 106);
+    font-weight: bolder;
+}
+
+#mode {
+    padding-left: 420px;
+}
+
+#sm:hover{
+    cursor: pointer;
+}
